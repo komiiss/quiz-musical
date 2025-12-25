@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Quiz musical do pop</title>
+    <meta name="description" content="Teste seus conhecimentos sobre música pop com este quiz divertido!">
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+ <body>
+
+<header>
+<h1>Quiz musical do pop 🎶</h1>
+<p>Teste seus conhecimentos sobre música pop com este quiz divertido!</p>
+
+</header>
+
+<main>
+    <!-- Instruções do quiz -->
+    <section> 
+        <h2>Instruções</h2>
+        <p>Responda às perguntas abaixo para ver o quanto você sabe sobre música pop!</p>
+        <p>no final você sua verá <strong>pontuação!</strong></p>
+    </section>
+    <!--pergunta 1: múltipla escolha-->
+    <section> 
+        <h2>pergunta 1: Quem é conhecida como a Rainha do Pop?</h2>
+        <form> 
+           <input type="radio" value="errado" id="p1a" name="pergunta1">
+            <label for="p1a">Lady Gaga</label><br>
+            <input type="radio" value="certo" id="p1b" name="pergunta1">
+            <label for="p1b">Madonna</label><br>
+            <input type="radio" value="errado" id="p1c" name="pergunta1">
+            <label for="p1c">Beyoncé</label><br>
+            <input type="radio" value="errado" id="p1d" name="pergunta1">
+            <label for="p1d">Ariana Grande</label><br>
+
+        </form>
+    </section>
+    <!--pergunta 2: texto-->
+    <section>
+        <h2>pergunta 2: Qual cantora ganhou fama ainda criança na Disney e depois se tornou uma das maiores estrelas do pop? </h2>
+        <form> 
+            <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
+        </form>
+    </section>
+    <!--pergunta 3: múltipla escolha-->
+    <section> 
+        <h2>pergunta 3: Qual dessas músicas NÃO é da Anitta?</h2>
+        <form> 
+           <input type="radio" value="errado" id="p3a" name="pergunta3">
+            <label for="p3a">Show das Poderosas</label><br>
+            <input type="radio" value="errado" id="p3b" name="pergunta3">
+            <label for="p3b">Bang</label><br>
+            <input type="radio" value="errado" id="p3c" name="pergunta3">
+            <label for="p3c">Vai Malandra</label><br>
+            <input type="radio" value="certo" id="p3d" name="pergunta3">
+            <label for="p3d">Dançarina</label><br>
+        </form>
+    </section>
+    <!--pergunta 4: data-->
+    <section>
+        <h2>pergunta 4: Em que ano o álbum SOUR, da Olivia Rodrigo, foi lançado?</h2>
+        <form>
+            <input type="date" id="p4" name="pergunta4" placeholder="Digite sua resposta...">
+        </form>
+    </section>
+    <!--pergunta 5: seleção múltipla-->
+    <section> 
+        <h2>pergunta 5: Quais dessas músicas fazem parte do álbum SOUR da Olivia Rodrigo?</h2>
+        <form>
+            <input type="checkbox" id="p5a" name="pergunta5" value="drivers license">
+            <label for="p5a">drivers license</label><br>
+            <input type="checkbox" id="p5b" name="pergunta5" value="vampire">
+            <label for="p5b">vampire</label><br>
+            <input type="checkbox" id="p5c" name="pergunta5" value="deja vu">
+            <label for="p5c">deja vu</label><br>
+            <input type="checkbox" id="p5d" name="pergunta5" value="good 4 u">
+            <label for="p5d">good 4 u</label><br>
+        </form>
+    </section>
+    <!--pergunta 6: upload de arquivo-->
+    <section>
+        <h2>pergunta 6: Envie um print ou imagem de um álbum musical disponível em uma plataforma de música (Spotify, Apple Music ou YouTube Music).</h2>
+        <form>
+            <input type="file" id="p6" name="pergunta6">
+        </form>
+    </section>
+    <!--pergunta 7: menu suspenso-->
+    <section>
+        <h2>pergunta 7: Selecione qual dessas músicas foi lançada primeiro:</h2>
+        <form>
+            <select id="p7" name="pergunta7">
+                <option value="errado">Single Ladies – Beyoncé</option>
+                 <option value="errado">Bad Romance – Lady Gaga</option>
+                <option value="certo">Baby One More Time – Britney Spears</option>
+                <option value="errado">Roar – Katy Perry</option>
+            </select>
+        </form>
+    </section>
+    <!--pergunta 8: imagem-->
+    <section>
+        <h2>pergunta 8: qual grupo musical é esse abaixo?</h2>
+        <img src="katseye.jpg" alt="Imagem de um grupo musical"><br>
+        <input type="text" id="p8" name="pergunta8" placeholder="Digite sua resposta...">
+    </section>
+    <!--botão de envio-->
+    <section>
+    <button id="finalizarQuiz">Finalizar quiz</button>
+    <p id="resultado"></p>
+    </section>
+    <!--lista de respostas-->
+    <section id="respostas" style="display: none;">
+        <h2>verique suas respostas</h2>
+        <details>
+            <summary>Clique para ver as respostas corretas</summary>
+            <ul>
+                <li>pergunta 1: Madonna</li>
+                <li>pergunta 2: Miley Cyrus</li>
+                <li>pergunta 3: Dançarina</li>
+                <li>pergunta 4: 2021</li>
+                <li>pergunta 5: drivers license, deja vu, good 4 u</li>
+                <li>pergunta 6: (varia conforme o arquivo enviado)</li>
+                <li>pergunta 7: Baby One More Time – Britney Spears</li>
+                <li>pergunta 8: katseye</li>
+            </ul>
+        </details>
+    </section>
+       <!-- formulário de feedback -->
+<section>
+
+  <h2>E aí, curtiu o quiz? Solta o feedback 💌</h2>
+<fieldset>
+    <legend>feedback</legend>
+  <form id="feedbackForm">
+    <label>Nome:</label><br>
+    <input type="text" id="name" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" id="email" required><br><br>
+
+    <label>Comentário:</label><br>
+    <textarea id="message" rows="4" required></textarea><br><br>
+
+    <button type="submit">Enviar feedback</button>
+    </fieldset>
+  </form>
+
+  <p id="statusFeedback"></p>
+</section>
+
+   
+</main>
+
+<footer>
+    <p>© 2025 Quiz Musical do Pop 
+        Criado por Matheus Henrique • <a href="https://github.com/komiiss" target="_blank">GitHub</a></p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js"></script>
+
+
+ </body>
+
+</html>
+
