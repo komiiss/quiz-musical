@@ -30,6 +30,6 @@
 ## 💡 Objetivo
 
 Este projeto foi criado para **praticar e consolidar conhecimentos em HTML, CSS e JavaScript**, aplicando design, lógica e interatividade em um site funcional.  
-O site segue uma **identidade visual moderna**, inspirado na vibe da Olivia Rodrigo.
+O site segue uma **identidade visual moderna**, 
 
 ---
