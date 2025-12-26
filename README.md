@@ -10,7 +10,7 @@
 ## 💻 Tecnologias usadas
 
 - **HTML5** — Estrutura do quiz  
-- **CSS3** — Estilização baseada na paleta pop/Olivia Rodrigo  
+- **CSS3** — Estilização 
 - **JavaScript** — Lógica do quiz, validação de respostas e pontuação
 
 ---
